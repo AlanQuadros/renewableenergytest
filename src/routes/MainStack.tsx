@@ -6,11 +6,12 @@ import Home from '../screens/Home';
 import SingleAsset from '../screens/SingleAsset';
 import Icon from 'react-native-vector-icons/AntDesign';
 import HeaderSignup from '../components/HeaderSignup';
+import TabStack from './TabStack';
 
 export type MainStackParamList = {
   Login: undefined;
   Signup: undefined;
-  Home: undefined;
+  Tabs: undefined;
   SingleAsset: undefined;
 };
 
@@ -35,7 +36,11 @@ function MainStack() {
           headerTitle: () => <HeaderSignup />,
         }}
       />
-      <Stack.Screen name={'Home'} component={Home} />
+      <Stack.Screen
+        name={'Tabs'}
+        component={TabStack}
+        options={{headerShown: false}}
+      />
       <Stack.Screen name={'SingleAsset'} component={SingleAsset} />
     </Stack.Navigator>
   );

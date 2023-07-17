@@ -29,7 +29,7 @@ function Login() {
   const navigation = useNavigation<LoginScreenProp>();
 
   function login(values: LoginFormValues) {
-    console.warn(values);
+    navigation.replace('Tabs');
   }
 
   function signup() {

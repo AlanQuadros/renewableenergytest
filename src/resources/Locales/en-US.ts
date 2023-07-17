@@ -22,4 +22,7 @@ export default {
   alreadyHaveAnAccount: 'Already have an account? ',
   loginHere: 'Log in here',
   registrationSuccess: 'Sign up success',
+  home: 'Home',
+  trade: 'Trade',
+  portfolio: 'Portfolio',
 };
