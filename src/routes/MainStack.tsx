@@ -1,10 +1,18 @@
+import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from '../screens/Login';
 import Signup from '../screens/Signup';
 import Home from '../screens/Home';
 import SingleAsset from '../screens/SingleAsset';
 
-const Stack = createStackNavigator();
+export type MainStackParamList = {
+  Login: undefined;
+  Signup: undefined;
+  Home: undefined;
+  SingleAsset: undefined;
+};
+
+const Stack = createStackNavigator<MainStackParamList>();
 
 function MainStack() {
   return (

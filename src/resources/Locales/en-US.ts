@@ -7,4 +7,7 @@ export default {
   dontHaveAnAccount: "Don't have an account?",
   signup: 'Sign up',
   here: 'here',
+  invalidEmailAddress: 'Invalid e-mail address',
+  required: 'Required',
+  minimunPassword: 'Minimum 8 characters',
 };
