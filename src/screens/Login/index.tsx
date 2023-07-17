@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {Container} from '../../components/Container';
 import {
+  Container,
   CustomText,
   CustomInput,
   Separator,
@@ -28,7 +28,7 @@ function Login() {
 
   const navigation = useNavigation<LoginScreenProp>();
 
-  function login(values: any) {
+  function login(values: LoginFormValues) {
     console.warn(values);
   }
 
@@ -76,7 +76,7 @@ function Login() {
               }
             />
             <Separator y={35} />
-            <CustomButton label={'Login'} onPress={() => handleSubmit()} />
+            <CustomButton label={t('login')} onPress={() => handleSubmit()} />
           </>
         )}
       </Formik>
