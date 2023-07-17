@@ -2,14 +2,14 @@
   "account": 1457.23,
   "portfolio": {
     "value": 1245.23,
-    "valuationPercentage": 31.82
+    "percentageValuation": 31.82
   },
   "funds": [
     {
       "id": 1,
       "name": "Wind Fund",
       "value": 1032.23,
-      "valuationPercentage": 3.51,
+      "percentageValuation": 3.51,
       "icon": "wind",
       "color": "#0FDF8F"
     },
@@ -17,15 +17,15 @@
       "id": 2,
       "name": "Solar Fund",
       "value": 986.61,
-      "valuationPercentage": -0.13,
+      "percentageValuation": -0.13,
       "icon": "solar",
       "color": "#EE8688"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Nature Fund",
       "value": 1122.04,
-      "valuationPercentage": 1.33,
+      "percentageValuation": 1.33,
       "icon": "nature",
       "color": "#0FDF8F"
     }

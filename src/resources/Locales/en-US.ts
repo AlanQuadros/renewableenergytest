@@ -25,4 +25,7 @@ export default {
   home: 'Home',
   trade: 'Trade',
   portfolio: 'Portfolio',
+  account: 'Account',
+  earnRewards: 'Earn Rewards',
+  funds: 'Funds',
 };
