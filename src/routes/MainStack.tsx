@@ -2,10 +2,9 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from '../screens/Login';
 import Signup from '../screens/Signup';
-import Home from '../screens/Home';
 import SingleAsset from '../screens/SingleAsset';
 import Icon from 'react-native-vector-icons/AntDesign';
-import HeaderSignup from '../components/HeaderSignup';
+import {HeaderSignup} from '../components';
 import TabStack from './TabStack';
 
 export type MainStackParamList = {

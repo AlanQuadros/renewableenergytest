@@ -7,7 +7,12 @@ import HomeIcon from '../icons/HomeIcon';
 import TradeIcon from '../icons/TradeIcon';
 import PortfolioIcon from '../icons/PortfolioIcon';
 import {Colors, t} from '../resources';
-import {CustomText} from '../components';
+import {
+  CustomText,
+  HeaderHomeTitle,
+  HomeHeaderLeft,
+  HomeHeaderRight,
+} from '../components';
 
 const Tab = createBottomTabNavigator();
 
@@ -60,7 +65,20 @@ const screenOptions = ({route}: any) => {
 function TabStack() {
   return (
     <Tab.Navigator screenOptions={screenOptions}>
-      <Tab.Screen name={'Home'} component={Home} />
+      <Tab.Screen
+        name={'Home'}
+        component={Home}
+        options={{
+          headerTitle: () => <HeaderHomeTitle />,
+          headerLeft: () => <HomeHeaderLeft />,
+          headerRight: () => <HomeHeaderRight />,
+          headerStyle: {
+            backgroundColor: Colors.white,
+            shadowColor: 'transparent',
+            elevation: 0,
+          },
+        }}
+      />
       <Tab.Screen name={'Trade'} component={Trade} />
       <Tab.Screen name={'Portfolio'} component={Portfolio} />
     </Tab.Navigator>

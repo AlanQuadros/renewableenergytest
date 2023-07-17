@@ -1,8 +1,14 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Container, CustomText, DefaultScroll} from '../../components';
 
 function Home() {
-  return <Text>{'Home'}</Text>;
+  return (
+    <DefaultScroll>
+      <Container>
+        <CustomText>{'Home'}</CustomText>
+      </Container>
+    </DefaultScroll>
+  );
 }
 
 export default Home;

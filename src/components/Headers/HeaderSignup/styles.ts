@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import {Colors} from '../../resources';
+import {Colors} from '../../../resources';
 
 export const HeaderLine = styled.View`
   height: 5px;
