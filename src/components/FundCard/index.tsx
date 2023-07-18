@@ -5,12 +5,19 @@ import WindIcon from '../../icons/WindIcon';
 import SunIcon from '../../icons/SunIcon';
 import NatureIcon from '../../icons/NatureIcon';
 import FundCardChart from './FundCardChart';
+import {useNavigation} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {MainStackParamList} from '../../routes/MainStack';
+
+type HomeScreenProp = StackNavigationProp<MainStackParamList, 'Tabs'>;
 
 type FundCardProps = {
   fund: any;
 };
 
 function FundCard({fund}: FundCardProps) {
+  const navigation = useNavigation<HomeScreenProp>();
+
   function showFundIcon(icon: string) {
     switch (icon) {
       case 'wind':
@@ -24,8 +31,12 @@ function FundCard({fund}: FundCardProps) {
     }
   }
 
+  function goToSingleAsset() {
+    navigation.navigate('SingleAsset', {fund});
+  }
+
   return (
-    <FundContainerPress>
+    <FundContainerPress onPress={goToSingleAsset}>
       {showFundIcon(fund.icon)}
       <Separator y={5} />
       <CustomText size={12} semiBold>

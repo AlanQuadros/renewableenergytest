@@ -46,6 +46,7 @@ function Home() {
       <DefaultList
         data={homeData.investTips}
         numColumns={2}
+        scrollEnabled={false}
         contentContainerStyle={{alignItems: 'center'}}
         keyExtractor={(item: any) => String(item.id)}
         ItemSeparatorComponent={() => <Separator y={20} />}
