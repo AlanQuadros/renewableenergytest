@@ -18,7 +18,7 @@ const Stack = createStackNavigator<MainStackParamList>();
 
 function MainStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName={'Tabs'}>
       <Stack.Screen
         name={'Login'}
         component={Login}

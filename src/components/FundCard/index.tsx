@@ -4,6 +4,7 @@ import {CustomText, PercentageValuation, Row, Separator} from '../index';
 import WindIcon from '../../icons/WindIcon';
 import SunIcon from '../../icons/SunIcon';
 import NatureIcon from '../../icons/NatureIcon';
+import FundCardChart from './FundCardChart';
 
 type FundCardProps = {
   fund: any;
@@ -30,6 +31,8 @@ function FundCard({fund}: FundCardProps) {
       <CustomText size={12} semiBold>
         {fund.name}
       </CustomText>
+      <Separator y={5} />
+      <FundCardChart data={fund.chartData} color={fund.color} />
       <Separator y={5} />
       <Row justifyContent={'flex-start'}>
         <CustomText>{`$${fund.value}`}</CustomText>
