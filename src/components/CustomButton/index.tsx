@@ -6,12 +6,31 @@ import {TouchableOpacityProps} from 'react-native';
 
 interface CustomButtonProps extends TouchableOpacityProps {
   label: string;
+  flex?: number;
+  bgColor?: string;
+  textColor?: string;
+  borderColor?: string;
 }
 
-function CustomButton({label, ...props}: CustomButtonProps) {
+function CustomButton({
+  label,
+  flex,
+  borderColor,
+  bgColor,
+  textColor,
+  ...props
+}: CustomButtonProps) {
   return (
-    <CustomButtonContainer {...props}>
-      <CustomText semiBold size={16} color={Colors.white} textAlign={'center'}>
+    <CustomButtonContainer
+      flex={flex}
+      borderColor={borderColor}
+      bgColor={bgColor}
+      {...props}>
+      <CustomText
+        semiBold
+        size={16}
+        color={textColor || Colors.white}
+        textAlign={'center'}>
         {label}
       </CustomText>
     </CustomButtonContainer>

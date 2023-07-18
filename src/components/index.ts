@@ -17,3 +17,4 @@ export {default as DefaultList} from './DefaultList';
 export {default as LearnMoreCard} from './LearnMoreCard';
 export {default as InvestCard} from './InvestCard';
 export {default as FundBreakdown} from './FundBreakdown';
+export {default as YourPortfolio} from './YourPortfolio';

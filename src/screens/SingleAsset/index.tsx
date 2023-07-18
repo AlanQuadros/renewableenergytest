@@ -11,6 +11,7 @@ import {
   PercentageValuation,
   Row,
   Separator,
+  YourPortfolio,
 } from '../../components';
 import {t} from '../../resources';
 import InfoStatsItem from '../../components/InfoStatsItem';
@@ -67,6 +68,7 @@ function SingleAsset() {
         <Separator y={15} />
         <FundBreakdown data={fund.breakdown} />
         <Separator y={35} />
+        <YourPortfolio data={fund.portfolio} />
       </Container>
     </DefaultScroll>
   );

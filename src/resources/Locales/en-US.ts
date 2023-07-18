@@ -33,4 +33,14 @@ export default {
   infoAndStats: 'Info & Stats',
   fundBreakdown: 'Fund Breakdown',
   readMore: 'Read more',
+  yourPortfolio: 'Your Portfolio',
+  credits: 'credits',
+  lastPurchase: 'Last purchase',
+  sell: 'Sell',
+  retireCredits: 'Retire Credits',
+  previouslyRetired1: 'You’ve previously retired ',
+  previouslyRetired2: ' credits of this asset',
+  yourPortfolioInfo:
+    'Please note that prices are for reference only and may vary at the time of excecuting a buy or sell order.\n\nThe information provided is not investment advice, and should not be used as a recommendation to buy or sell assets.',
+  buy: 'Buy',
 };
