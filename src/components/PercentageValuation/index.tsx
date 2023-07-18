@@ -5,9 +5,10 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 type PercentageValuationProps = {
   value: number;
+  profit?: number;
 };
 
-const PercentageValuation = ({value}: PercentageValuationProps) => {
+const PercentageValuation = ({value, profit}: PercentageValuationProps) => {
   const color = value > 0 ? Colors.lightGreen : Colors.lightRed;
 
   if (value === 0) {
@@ -22,6 +23,7 @@ const PercentageValuation = ({value}: PercentageValuationProps) => {
         color={color}
       />
       <CustomText color={color}>{`${Math.abs(value)}%`}</CustomText>
+      {profit && <CustomText color={color}>{` ($${profit})`}</CustomText>}
     </Row>
   );
 };

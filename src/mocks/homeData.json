@@ -17,30 +17,73 @@
       "invest": 18.23,
       "profit": 1.21,
       "year": 2022,
-      "info": {
-        "aum": "$430.88m",
-        "issueDate": "18/04/2022",
-        "vintageRange": "2019-2022",
-        "ter": "0.15%",
-        "priceAtCost": "$17.68",
-        "priceAtOpen": "17.74"
-      },
-      "breakdown": {
-        "highlighted": [
-          {
-            "id": 1,
-            "image": "",
-            "logo": "",
-            "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules. Read more"
-          },
-          {
-            "id": 2,
-            "image": "",
-            "logo": "",
-            "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
-          }
-        ]
-      },
+      "info" : [
+        {
+          "id": 1,
+          "name": "AUM",
+          "value": "$430.88m"
+        },
+        {
+          "id": 2,
+          "name": "Issue Date",
+          "value": "18/04/2022"
+        },
+        {
+          "id": 3,
+          "name": "Vintage Range",
+          "value": "2019 - 2022"
+        },
+        {
+          "id": 4,
+          "name": "TER",
+          "value": "0.15%"
+        },
+        {
+          "id": 5,
+          "name": "Price at Close",
+          "value": "$17.68"
+        },
+        {
+          "id": 6,
+          "name": "Price at Open",
+          "value": "$17.74"
+        }
+      ],
+      "breakdown": [
+        {
+          "id": 1,
+          "name": "Highlighted",
+          "data": [
+            {
+              "id": 1,
+              "image": "https://images.squarespace-cdn.com/content/v1/629ec8b60d34d83ed4c5d282/483ed4f7-f981-464c-b69e-6d547be8a972/Webpage+Gallery1.6.png",
+              "logo": "https://images.crunchbase.com/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/dws7pcrykqannmfcfeeb",
+              "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules."
+            },
+            {
+              "id": 2,
+              "image": "https://media.wired.co.uk/photos/615451fb86e8ce9e285b2c9c/16:9/w_2560%2Cc_limit/0421-WIRED-C02.jpg",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Climeworks_-_logo_-_20_July_2022.svg/2560px-Climeworks_-_logo_-_20_July_2022.svg.png",
+              "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Value",
+          "data": []
+        },
+        {
+          "id": 3,
+          "name": "Vintage",
+          "data": []
+        },
+        {
+          "id": 4,
+          "name": "Registry",
+          "data": []
+        }
+      ],
       "portfolio": {
         "credits": 18,
         "percentageValuation": 8.41,
@@ -61,30 +104,73 @@
       "invest": 28.63,
       "profit": -1.21,
       "year": 2023,
-      "info": {
-        "aum": "$430.88m",
-        "issueDate": "18/04/2022",
-        "vintageRange": "2019-2022",
-        "ter": "0.15%",
-        "priceAtCost": "$17.68",
-        "priceAtOpen": "17.74"
-      },
-      "breakdown": {
-        "highlighted": [
-          {
-            "id": 1,
-            "image": "",
-            "logo": "",
-            "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules. Read more"
-          },
-          {
-            "id": 2,
-            "image": "",
-            "logo": "",
-            "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
-          }
-        ]
-      },
+      "info" : [
+        {
+          "id": 1,
+          "name": "AUM",
+          "value": "$430.88m"
+        },
+        {
+          "id": 2,
+          "name": "Issue Date",
+          "value": "18/04/2022"
+        },
+        {
+          "id": 3,
+          "name": "Vintage Range",
+          "value": "2019 - 2022"
+        },
+        {
+          "id": 4,
+          "name": "TER",
+          "value": "0.15%"
+        },
+        {
+          "id": 5,
+          "name": "Price at Close",
+          "value": "$17.68"
+        },
+        {
+          "id": 6,
+          "name": "Price at Open",
+          "value": "$17.74"
+        }
+      ],
+      "breakdown": [
+        {
+          "id": 1,
+          "name": "Highlighted",
+          "data": [
+            {
+              "id": 1,
+              "image": "https://images.squarespace-cdn.com/content/v1/629ec8b60d34d83ed4c5d282/483ed4f7-f981-464c-b69e-6d547be8a972/Webpage+Gallery1.6.png",
+              "logo": "https://images.crunchbase.com/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/dws7pcrykqannmfcfeeb",
+              "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules. Read more"
+            },
+            {
+              "id": 2,
+              "image": "https://media.wired.co.uk/photos/615451fb86e8ce9e285b2c9c/16:9/w_2560%2Cc_limit/0421-WIRED-C02.jpg",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Climeworks_-_logo_-_20_July_2022.svg/2560px-Climeworks_-_logo_-_20_July_2022.svg.png",
+              "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Value",
+          "data": []
+        },
+        {
+          "id": 3,
+          "name": "Vintage",
+          "data": []
+        },
+        {
+          "id": 4,
+          "name": "Registry",
+          "data": []
+        }
+      ],
       "portfolio": {
         "credits": 42,
         "percentageValuation": -8.41,
@@ -105,30 +191,73 @@
       "invest": 3.41,
       "profit": 6.87,
       "year": 2023,
-      "info": {
-        "aum": "$430.88m",
-        "issueDate": "18/04/2022",
-        "vintageRange": "2019-2022",
-        "ter": "0.15%",
-        "priceAtCost": "$17.68",
-        "priceAtOpen": "17.74"
-      },
-      "breakdown": {
-        "highlighted": [
-          {
-            "id": 1,
-            "image": "",
-            "logo": "",
-            "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules. Read more"
-          },
-          {
-            "id": 2,
-            "image": "",
-            "logo": "",
-            "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
-          }
-        ]
-      },
+      "info" : [
+        {
+          "id": 1,
+          "name": "AUM",
+          "value": "$430.88m"
+        },
+        {
+          "id": 2,
+          "name": "Issue Date",
+          "value": "18/04/2022"
+        },
+        {
+          "id": 3,
+          "name": "Vintage Range",
+          "value": "2019 - 2022"
+        },
+        {
+          "id": 4,
+          "name": "TER",
+          "value": "0.15%"
+        },
+        {
+          "id": 5,
+          "name": "Price at Close",
+          "value": "$17.68"
+        },
+        {
+          "id": 6,
+          "name": "Price at Open",
+          "value": "$17.74"
+        }
+      ],
+      "breakdown": [
+        {
+          "id": 1,
+          "name": "Highlighted",
+          "data": [
+            {
+              "id": 1,
+              "image": "https://images.squarespace-cdn.com/content/v1/629ec8b60d34d83ed4c5d282/483ed4f7-f981-464c-b69e-6d547be8a972/Webpage+Gallery1.6.png",
+              "logo": "https://images.crunchbase.com/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/dws7pcrykqannmfcfeeb",
+              "info": "Aspira is building a modular, direct air capture system with the energy supply integrated into the modules. Read more"
+            },
+            {
+              "id": 2,
+              "image": "https://media.wired.co.uk/photos/615451fb86e8ce9e285b2c9c/16:9/w_2560%2Cc_limit/0421-WIRED-C02.jpg",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Climeworks_-_logo_-_20_July_2022.svg/2560px-Climeworks_-_logo_-_20_July_2022.svg.png",
+              "info": "uses renewable geothermal energy and waste heat to capture CO₂ directly from the air."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Value",
+          "data": []
+        },
+        {
+          "id": 3,
+          "name": "Vintage",
+          "data": []
+        },
+        {
+          "id": 4,
+          "name": "Registry",
+          "data": []
+        }
+      ],
       "portfolio": {
         "credits": 5,
         "percentageValuation": 6.19,

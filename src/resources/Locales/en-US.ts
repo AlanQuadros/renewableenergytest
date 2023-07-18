@@ -30,4 +30,7 @@ export default {
   funds: 'Funds',
   learnMore: 'Learn more about\ncarbon credits',
   checkOutTopTips: 'Check out our top tips!',
+  infoAndStats: 'Info & Stats',
+  fundBreakdown: 'Fund Breakdown',
+  readMore: 'Read more',
 };
