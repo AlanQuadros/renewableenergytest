@@ -11,10 +11,11 @@ import {
   PercentageValuation,
   Row,
   Separator,
+  SingleAssetChart,
   YourPortfolio,
+  InfoStatsItem,
 } from '../../components';
 import {t} from '../../resources';
-import InfoStatsItem from '../../components/InfoStatsItem';
 
 type SingleAssetScreenRouteProp = RouteProp<MainStackParamList, 'SingleAsset'>;
 
@@ -43,7 +44,8 @@ function SingleAsset() {
             {fund.year}
           </CustomText>
         </Row>
-        {/*  TODO CHART*/}
+        <Separator y={20} />
+        <SingleAssetChart data={fund.chartData} color={fund.color} />
         <Separator y={20} />
         <CustomText semiBold size={17}>
           {t('infoAndStats')}
