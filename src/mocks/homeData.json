@@ -32,5 +32,9 @@
       "color": "#0FDF8F",
       "chartData": [2, -5, 1, 1, 3, 2, 8, 9, 5, 3, 9, 11]
     }
+  ],
+  "investTips": [
+    {"id": 1, "title": "Why should you invest here?"},
+    {"id": 2, "title": ""}
   ]
 }

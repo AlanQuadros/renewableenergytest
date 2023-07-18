@@ -28,4 +28,6 @@ export default {
   account: 'Account',
   earnRewards: 'Earn Rewards',
   funds: 'Funds',
+  learnMore: 'Learn more about\ncarbon credits',
+  checkOutTopTips: 'Check out our top tips!',
 };

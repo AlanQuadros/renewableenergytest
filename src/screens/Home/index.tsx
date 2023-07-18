@@ -5,7 +5,9 @@ import {
   DefaultList,
   DefaultScroll,
   FundCard,
+  LearnMoreCard,
   Separator,
+  InvestCard,
 } from '../../components';
 import {useSelector} from 'react-redux';
 import {t} from '../../resources';
@@ -15,6 +17,10 @@ function Home() {
 
   function renderFundItem({item}: any) {
     return <FundCard fund={item} />;
+  }
+
+  function renderInvestItem({item}: any) {
+    return <InvestCard item={item} />;
   }
 
   return (
@@ -32,6 +38,18 @@ function Home() {
         keyExtractor={(item: any) => String(item.id)}
         ItemSeparatorComponent={() => <Separator x={10} />}
         renderItem={renderFundItem}
+      />
+      <Container>
+        <LearnMoreCard />
+        <Separator y={10} />
+      </Container>
+      <DefaultList
+        data={homeData.investTips}
+        numColumns={2}
+        contentContainerStyle={{alignItems: 'center'}}
+        keyExtractor={(item: any) => String(item.id)}
+        ItemSeparatorComponent={() => <Separator y={20} />}
+        renderItem={renderInvestItem}
       />
     </DefaultScroll>
   );
